@@ -25,4 +25,5 @@ $$
 
 * proof apply the above lemma, let $\delta = e^{-2nt^2}$ , it yeilds the generalization bound.
 
+### Generalization for finite hypothesis space: Uniform Bound for all posibile f  
 
