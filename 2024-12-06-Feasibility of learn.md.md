@@ -14,6 +14,11 @@ $$
 
 * proof 1: 证明 $E(Er_{in})=Er_{out}$
 * proof 2: apply Hoeffding‘s inequality
+Xi is independent random with mean ui and bounded on [ai,bi]
+
+$$  
+Pr[\sum_{i=1}^n(Xi-ui) >= t] <= e^{-\frac{2t^2}{\sum_{i=1}^n(bi-ai)^2}}
+$$
 
 **Proposition** generalization bound for fixed f  
 the following bound holds with probability $1-\delta$:  
@@ -61,9 +66,33 @@ $$
 2. break point: 不能被shatter的sample size
 3. VC dimension：最大的能被shatter的sample size
 
+**Theorm**
+for d-dimensional binary linear classier, we have : dvc = d + 1   
+* it's exactly the effective number of parameters, and hence the complexity of H
+
 $$ 
 G(n)<= n^(d_{VC})+1  
+$$
+
+### VC generalization bound  
+
 $$  
+O(\sqrt{\frac{dvc}{n}})  
+$$  
+
+**comment**
+1. it's a litle bit loose, but establish the feasibility of learning for infinite H
+2. once n is enough large, learning is likely feasible
+3. give us some rules to garantee the bound: e.g. about the number of samples:n >= 10dvc
+for linear regression
+
+$$  
+O(\sqrt{\frac{dp}{n}})  
+$$ 
+
+- [] todo
+
+
 
 
 
