@@ -50,7 +50,20 @@ $$
 1. **Dichotomy** 对一组有限样本n的分类结果
 2. **Dichotomies of H** H中所有f产生的互斥分类结果的集合（可以想到如果f有n个，分类结果可能会少于n）
 3. **growth function** G（n） 考虑所有可能的n个样本的组合，选出具有最多Dichotomies的数量即为G(n)
-**comment** Growth function measure the richness of H，based on n points rather than cardinality of H
-4. **shatter** 
+**comment**
+* Growth function measure the richness of H，based on n points rather than cardinality of H
+* it's impracical to calculate G exactly for every n
+* we know $2^n$ is a upper bound for G(n), but it's trivial due to log it will be a constant which means larger n cannot bring better generalization
+* can we find another tighter one？--Yes！vc dimension
+
+### break point and VC dimension 
+1. **shatter**
+2. break point: 不能被shatter的sample size
+3. VC dimension：最大的能被shatter的sample size
+
+$$ 
+G(n)<= n^(d_{VC})+1  
+$$  
+
 
 
