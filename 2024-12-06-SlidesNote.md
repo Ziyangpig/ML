@@ -32,17 +32,18 @@ Er_{out} <= Er_{in} + \sqrt{\frac{log(|H|/\delta)}{2n}}    \forall f \in h
 $$  
 
 **proof**  
-1. 等价于证明 存在一个f满足 $Er_{in} <= Er_{out} - \sqrt{\frac{log(|H|/\delta)}{2n}}$ 的概率 < $\delta$, 
-2. apply union bound（非常宽松，单个的概率*|H|） and generalization bound for a fixed f，可得概率为 $|H|e^{-2nt^2}$
-3. setting $|H|e^{-2nt^2} = \delta$ yields the desired result
+1. 等价于证明 存在一个f满足 $Er_{in} <= Er_{out} - \sqrt{\frac{log(\|H\|/\delta)}{2n}}$ 的概率 < $\delta$, 
+2. apply union bound（非常宽松，单个的概率*\|H\|） and generalization bound for a fixed f，可得概率为 $\|H\|e^{-2nt^2}$
+3. setting $\|H\|e^{-2nt^2} = \delta$ yields the desired result
    
 **comment**
 *  from a f to finite space H, the error bound $\sqrt{\frac{log(1/\delta)}{2n}}$  changes to $\sqrt{\frac{log(|H|/\delta)}{2n}}$
-*  the genralization error increases when |H| grows, but only logrithmically
+*  the genralization error increases when \|H\| grows, but only logrithmically
 *  H is usually infinite and union bound can be very coarse
 
 ## Generalization of Infinite hypothesis space  
 > replace |H| with VC dimension
+> 
 > only discuss binary classification
 ### Growth function  
 1. **Dichotomy** 对一组有限样本n的分类结果
