@@ -4,7 +4,7 @@ date: 2024-12-06
 ---
 
 # Logistic Regression
-> use sigmod or softmax to approximate 
+> use sigmod or softmax to approximate posterior probability
 ## Binary classification
 **logistic function/sigmod**
 
