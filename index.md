@@ -2,7 +2,7 @@
 title: ML SLIDE NOTE
 ---
 
-# train versus test
+# Content
 
 
 [Feasibility of learn - Generalization Error](./2024-12-06-Feasibility of learn.html)
