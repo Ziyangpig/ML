@@ -45,6 +45,7 @@ $$
 > replace \|H\| with VC dimension
 > 
 > only discuss binary classification
+
 ### Growth function  
 1. **Dichotomy** 对一组有限样本n的分类结果
 2. **Dichotomies of H** H中所有f产生的互斥分类结果的集合（可以想到如果f有n个，分类结果可能会少于n）
