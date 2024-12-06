@@ -3,7 +3,7 @@ title: "Generalization Error"
 date: 2024-12-06
 ---
 
-# train versus test
+# Generalization Error
 ## Generalization of Finite hypothesis space 
 ### Generalization for fixed f
 **Lemma**: High probability bounds for fixed f  
