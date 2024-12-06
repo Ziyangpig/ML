@@ -1,5 +1,5 @@
 ---
-title: "ML-Notes"
+title: "Generalization Error"
 date: 2024-12-06
 ---
 
