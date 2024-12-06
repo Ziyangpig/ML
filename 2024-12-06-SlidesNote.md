@@ -37,12 +37,12 @@ $$
 3. setting $\|H\|e^{-2nt^2} = \delta$ yields the desired result
    
 **comment**
-*  from a f to finite space H, the error bound $\sqrt{\frac{log(1/\delta)}{2n}}$  changes to $\sqrt{\frac{log(|H|/\delta)}{2n}}$
+*  from a f to finite space H, the error bound $\sqrt{\frac{log(1/\delta)}{2n}}$  changes to $\sqrt{\frac{log(\|H\|/\delta)}{2n}}$
 *  the genralization error increases when \|H\| grows, but only logrithmically
 *  H is usually infinite and union bound can be very coarse
 
 ## Generalization of Infinite hypothesis space  
-> replace |H| with VC dimension
+> replace \|H\| with VC dimension
 > 
 > only discuss binary classification
 ### Growth function  
