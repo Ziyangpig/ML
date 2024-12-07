@@ -9,4 +9,3 @@ title: ML SLIDE NOTE
 
 [Linear model](./Linear model.html)
 
-[S](./_posts/2024-12-06-SlidesNote.html)
