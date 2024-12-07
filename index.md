@@ -9,3 +9,5 @@ title: ML SLIDE NOTE
 
 [Linear model](./Linear model.html)
 
+[Optimizaiton Method](./Optimization Algorithm.md)
+
