@@ -5,7 +5,7 @@ title: ML SLIDE NOTE
 # Content
 
 
-[Generalization Error](./2024-12-06-Feasibility of learn.html)
+[Generalization Error](./Generalization Error.html)
 
 [Linear model](./Linear model.html)
 
