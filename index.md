@@ -11,3 +11,5 @@ title: ML SLIDE NOTE
 
 [Optimizaiton Method](./Optimization Algorithm.md)
 
+[time series](./time series.md)
+
